@@ -1,12 +1,12 @@
 terraform {
 
-  # cloud {
-  #   organization = "jacob-tf-demo"
+  cloud {
+    organization = "jacob-tf-demo"
 
-  #   workspaces {
-  #     name = "learn-terraform-cloud"
-  #   }
-  # }
+    workspaces {
+      name = "learn-terraform-cloud"
+    }
+  }
 
   required_providers {
     aws = {
